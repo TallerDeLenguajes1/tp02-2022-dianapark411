@@ -1,0 +1,3 @@
+Cuando realizamos cambios en la rama Opcion_2, al volver a la rama main, no se los puede ver. Esto ocurre porque ambas ramas no conocen la existencia de los archivos que han sido agregados a la otra. Por lo tanto, main ni se entero que se creo el archivo tp2_1_2.c en Opcion_2
+
+Al comienzo haciendo gitk --all se veia el historial con las ramas en forma de lista, una vez creado el archivo respuestas, al hacer el mismo comando se ve como una ramificacion.
