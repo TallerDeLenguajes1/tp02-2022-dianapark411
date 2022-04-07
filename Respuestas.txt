@@ -1,5 +1,5 @@
 Cuando realizamos cambios en la rama Opcion_2, al volver a la rama main, no se los puede ver. Esto ocurre porque ambas ramas no conocen la existencia de los archivos que han sido agregados a la otra. Por lo tanto, main ni se entero que se creo el archivo tp2_1_2.c en Opcion_2
 
-Al comienzo haciendo gitk --all se veia el historial con las ramas en forma de lista ya que luego de hacer ramificacion solo se commiteo la rama Opcion_2, una vez creado el archivo respuestas en main y comitearlo. Al hacer gitk --all se ve como una ramificacion esto se debe a que se tienen commits en ambas ramas.
+Al comienzo haciendo gitk --all se veia el historial con las ramas en forma de lista ya que luego de hacer ramificacion solo se commiteo la rama Opcion_2, una vez creado el archivo respuestas en main y comitearlo, al hacer gitk --all se ve como una ramificacion esto se debe a que se tienen commits en ambas ramas.
 
 Luego de hacer el merge se pueden ver todos los archivos que fuimos realizando. 
